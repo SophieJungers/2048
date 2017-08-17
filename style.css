@@ -1,0 +1,143 @@
+body {
+	margin: 80px 0;
+}
+
+html, body {
+	margin : 0;
+	padding: 0;
+	background: #E0E0E0;
+	color: #104554;
+	font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+	font-size: 18px;
+}
+
+
+h1.title {
+	font-size: 80px;
+	font-weight: bold;
+	margin: 0;
+	display: block;
+	float: left;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 10px;
+	line-height: 1.65; }
+
+	.my_grid {
+		margin-top: 40px;
+		margin: auto;
+		position: relative;
+		padding: 15px;
+		cursor: default;
+		touch-action : none;
+		background-color: #104554;
+		border-radius: 6px;
+		width: 500px;
+		height: 500px;
+		box-sizing: border-box;
+	}
+
+
+	.my_cell{
+		width: 100px;
+		height: 100px;
+		/*border-spacing: 20px;*/
+		/*border: 2px solid #104554;*/
+		border-radius: 6px;
+		background: #247187;
+	}
+
+	.fully_cell{
+		width: 100px;
+		height: 100px;
+		/*border-spacing: 20px;*/
+		/*border: 2px solid #104554;*/
+		border-radius: 6px;
+		background: #ccdfe5;
+		text-align: center;
+		font-size: 50px;
+	}
+
+	.yellow{
+		width: 100px;
+		height: 100px;
+		/*border-spacing: 20px;*/
+		/*border: 2px solid #104554;*/
+		border-radius: 6px;
+		background: #e5c877;
+		text-align: center;
+		font-size: 50px; 
+	}
+
+	.orange{
+		width: 100px;
+		height: 100px;
+		/*border-spacing: 20px;*/
+		/*border: 2px solid #104554;*/
+		border-radius: 6px;
+		background: #e5af77;
+		text-align: center;
+		font-size: 50px; 
+	}
+
+	.red{
+		width: 100px;
+		height: 100px;
+		/*border-spacing: 20px;*/
+		/*border: 2px solid #104554;*/
+		border-radius: 6px;
+		background: #e59277;
+		text-align: center;
+		font-size: 50px; 
+	}
+
+	.green{
+		width: 100px;
+		height: 100px;
+		/*border-spacing: 20px;*/
+		/*border: 2px solid #104554;*/
+		border-radius: 6px;
+		background: #a6c187;
+		text-align: center;
+		font-size: 50px; 
+	}
+
+	.purple{
+		width: 100px;
+		height: 100px;
+		/*border-spacing: 20px;*/
+		/*border: 2px solid #104554;*/
+		border-radius: 6px;
+		background: #9a80ba;
+		text-align: center;
+		font-size: 50px; 
+	}
+
+	.pink{
+		width: 100px;
+		height: 100px;
+		border-radius: 6px;
+		background: #cc88ac;
+		text-align: center;
+		font-size: 50px; 
+	}
+
+	.green_blue{
+		width: 100px;
+		height: 100px;
+		border-radius: 6px;
+		background: #80ba9e;
+		text-align: center;
+		font-size: 50px; 
+	}
+
+	.blue{
+		width: 100px;
+		height: 100px;
+		border-radius: 6px;
+		background: #7b9faf;
+		text-align: center;
+		font-size: 50px; 
+	}
