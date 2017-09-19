@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
 body {
 	margin: 80px 0;
 }
@@ -5,139 +9,187 @@ body {
 html, body {
 	margin : 0;
 	padding: 0;
+	width: 100%;
 	background: #E0E0E0;
 	color: #104554;
-	font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Indie Flower', cursive;
 	font-size: 18px;
 }
 
-
-h1.title {
-	font-size: 80px;
-	font-weight: bold;
-	margin: 0;
-	display: block;
-	float: left;
+.container{
+	margin-left : 16.5%;
+	padding: 0.5%;
 }
 
-p {
-	margin-top: 0;
-	margin-bottom: 10px;
-	line-height: 1.65; }
+.header{
+	margin-left: 20%;
+}
 
-	.my_grid {
-		margin-top: 40px;
-		margin: auto;
-		position: relative;
-		padding: 15px;
-		cursor: default;
-		touch-action : none;
-		background-color: #104554;
-		border-radius: 6px;
-		width: 500px;
-		height: 500px;
-		box-sizing: border-box;
-	}
+h1.title {
+	padding: 0px;
+	margin: 0px;
+	font-size: 55px;
+	font-weight: bold;
+}
+
+.score{
+	margin-left: 18.5%;
+}
 
 
-	.my_cell{
-		width: 100px;
-		height: 100px;
-		/*border-spacing: 20px;*/
-		/*border: 2px solid #104554;*/
-		border-radius: 6px;
-		background: #247187;
-	}
+.block_score_1, .block_score_2{
+	position: relative;
+	display: inline-block;
+	background: #104554;
+	padding: 0.5% 2%;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 5%;
+	color: white;
+	text-align: center;
+}
 
-	.fully_cell{
-		width: 100px;
-		height: 100px;
-		/*border-spacing: 20px;*/
-		/*border: 2px solid #104554;*/
-		border-radius: 6px;
-		background: #ccdfe5;
-		text-align: center;
-		font-size: 50px;
-	}
+.intro {
+	margin-left: 5%;
+	margin-bottom: -0.5%;
+	line-height: 120%; 
+	font-size: 20px;
+}
 
-	.yellow{
-		width: 100px;
-		height: 100px;
-		/*border-spacing: 20px;*/
-		/*border: 2px solid #104554;*/
-		border-radius: 6px;
-		background: #e5c877;
-		text-align: center;
-		font-size: 50px; 
-	}
+.new_game{
+	margin-left: 2%;
+	margin-right : 4.5%;
+	position: relative;
+	display: inline-block;
+	background: #d6b87c;
+	padding: 0.5% 2%;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 5%;
+	color: white;
+	text-align: center;
+}
 
-	.orange{
-		width: 100px;
-		height: 100px;
-		/*border-spacing: 20px;*/
-		/*border: 2px solid #104554;*/
-		border-radius: 6px;
-		background: #e5af77;
-		text-align: center;
-		font-size: 50px; 
-	}
+.my_grid {
+	position: relative;
+	padding: 1.5%;
+	background-color: #104554;
+	border-radius: 3%;
+	border-spacing: 8px;
+	width: 500px;
+	height: 500px;
+}
 
-	.red{
-		width: 100px;
-		height: 100px;
-		/*border-spacing: 20px;*/
-		/*border: 2px solid #104554;*/
-		border-radius: 6px;
-		background: #e59277;
-		text-align: center;
-		font-size: 50px; 
-	}
 
-	.green{
-		width: 100px;
-		height: 100px;
-		/*border-spacing: 20px;*/
-		/*border: 2px solid #104554;*/
-		border-radius: 6px;
-		background: #a6c187;
-		text-align: center;
-		font-size: 50px; 
-	}
+#my_base, #game_over, #win{
+	display: block;
+	position: fixed;
+	cursor: default;
+	touch-action : none;
+	text-align: center;
+	font-size: 50px; 
+	border-radius: 3%;
+	width: 500px;
+	height: 500px;
+	box-sizing: border-box;
+}
 
-	.purple{
-		width: 100px;
-		height: 100px;
-		/*border-spacing: 20px;*/
-		/*border: 2px solid #104554;*/
-		border-radius: 6px;
-		background: #9a80ba;
-		text-align: center;
-		font-size: 50px; 
-	}
+#game_over, #win{
+	background-color: white;
+	opacity: 0.65;
+	margin-top: 0.5%;
+	margin-left : 17%;
+	font-family: 'Lobster', cursive;
+	font-size : 360%;
+	color: black;
+	
+}
 
-	.pink{
-		width: 100px;
-		height: 100px;
-		border-radius: 6px;
-		background: #cc88ac;
-		text-align: center;
-		font-size: 50px; 
-	}
+#img_win{
+	margin-top: 8%;
+	width: 50%;
+}
 
-	.green_blue{
-		width: 100px;
-		height: 100px;
-		border-radius: 6px;
-		background: #80ba9e;
-		text-align: center;
-		font-size: 50px; 
-	}
+#img_over{
+	margin-top: 15%;
+	width: 70%;
+}
 
-	.blue{
-		width: 100px;
-		height: 100px;
-		border-radius: 6px;
-		background: #7b9faf;
-		text-align: center;
-		font-size: 50px; 
-	}
+
+td{
+	width: 100px;
+	height: 100px;
+	border-radius: 6px;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.empty_cell{
+	background: #247187;
+}
+
+.fully_cell{
+	background: #ccdfe5;
+}
+
+.yellow{
+	background: #e5c877;
+
+}
+
+.orange{
+	background: #e5af77;
+}
+
+.red{
+	background: #e59277;
+}
+
+.green{
+	background: #a6c187;
+}
+
+.purple{
+	background: #9a80ba;
+}
+
+.pink{
+	background: #cc88ac; 
+}
+
+.green_blue{
+	background: #80ba9e; 
+}
+
+.blue{
+	background: #7b9faf;
+}
+
+.blood_orange{
+	background: #ddbaa6;
+
+}
+.olive{
+	background: #d3dda6;
+}
+
+.dark_blue{
+	background: #0e132d;
+	color: white;
+}
+.strong_red{
+	background: #91342a;
+	color: white;
+}
+
+.signature{
+	margin-top: 31%;
+	margin-left: 42.5%;
+	color: #ba9959;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+

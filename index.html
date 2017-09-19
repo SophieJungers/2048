@@ -6,16 +6,49 @@
 	<title>	</title>
 </head>
 <body>
-	<!-- <div class="header">
-		<h1 class="title">2048 by Fiso</h1>
+
+	<div class="container">
+		<div class="header container">
+			<h1 class="title">2048 by Fiso</h1>
+		</div>
+		<div class="score container">
+			<div class="new_game">New Game!</div>
+			<div class="block_score_1">
+				<div class="title_score">Score</div>
+				<div class="current_score">0</div>
+			</div>
+			<div class="block_score_2">
+				<div class="title_score">Best score</div>
+				<div class="best_score">0</div>
+			</div>
+		</div>
+
+		<div class="little-explanation container">
+			<p class="intro"> Join the number an get to the 2048 tile!</p>
+		</div>
+		
+
+		<div id="table">
+			<div class="container" id="my_base"></div>
+			<div class="container" id="game_over">
+				<div><img id="img_over"src="game-over.png" alt="" /></div>
+			</div>
+
+			<div class="container" id="win">
+				<div><img id="img_win" src="win.png" alt="" /></div>
+				Congratulations
+			</div>
+		</div>
+
+		<div class="signature">by Fiso - August 2017</div>
 	</div>
 
-	<div class=little-explanation>
-	<p class="intro"> Join the number an get to the 20148  tile!"</p>
-	</div> -->
-
-	<div class="my_base"></div>
 	<script src="http://code.jquery.com/jquery.js"></script>
 	<script src="script.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("#my_base").game2048(4,4);
+		})
+	</script>
 </body>
 </html>
